@@ -14,3 +14,21 @@
     margin-right: 20%;
     margin-bottom: 20px;
 }
+
+.disclaimer {
+    margin-top: 5px;
+    color:gray;
+    font-size: 10px;
+    margin-left: 10px
+}
+
+.card {
+    margin-inline: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.fixed-bottom {
+    margin-top: 20px;
+}
+

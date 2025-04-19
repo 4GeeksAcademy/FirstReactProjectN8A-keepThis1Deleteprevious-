@@ -6,19 +6,16 @@ import Card4 from './Card4';
 function CardList() {
     return (
         <div className="container-fluid">
-            <div className="row d-flex justify-center">
-                <div className="col-sm-3">
-                    <Card1 />
-                </div>
-                <div className="col-sm-3">
-                    <Card2 />
-                </div>
-                <div className="col-sm-3">
-                    <Card3 />
-                </div>
-                <div className="col-sm-3">
-                    <Card4 />
-                </div>
+            <div className="row">
+
+                <Card1 className="col-sm-6 col md-4 col-lg-3" />
+
+                <Card2 className="col-sm-6 col md-4 col-lg-3" />
+
+                <Card3 className="col-sm-6 col md-4 col-lg-3" />
+
+                <Card4 className="col-sm-6 col md-4 col-lg-3" />
+
             </div>
         </div>
     )
